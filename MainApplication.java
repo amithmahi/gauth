@@ -11,7 +11,7 @@ public class MainApplication {
 
     public static void main(String[] args) throws IOException, WriterException {
       //  String secretKey = "QDWSM3OYBPGTEVSPB5FKVDM3CSNCWHVK";
-        String secretKey = "4GQSXERCENNOQJXJSOMNULVLXHYIBVA5";
+        String secretKey = "QSXERCENNOQJXJSOMNULVLXHYIBVA5";
         String email = "test@gmail.com";
         String companyName = "Awesome Company";
         String barCodeUrl = Utils.getGoogleAuthenticatorBarCode(secretKey, email, companyName);
